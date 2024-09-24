@@ -85,20 +85,20 @@ p{
 
 /* banner area starts */
 
-#banner_area{
+/* #banner_area{
     background: url(../images/banner.jpg);
     background-size: cover;
     background-position: center center;
-}
+} */
 
-.banner_overlay{
+/* .banner_overlay{
     padding: 150px 0;
     background-color: rgba(0, 0, 0, 0.6);
-}
+} */
 
-.banner_content{
+/* .banner_content{
     text-align: right;
-}
+} */
 
 .banner_content h2{
     font-size: 30px;
@@ -144,6 +144,41 @@ p{
 }
 
 /* banner area ends */
+
+
+/* banner with slider area starts */
+
+.carousel-caption {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.slider_text {
+    position: relative;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-next {
+    right: -50px;
+}
+
+.carousel-control-prev {
+    left: -50px;
+}
+
+/* banner with slider area ends */
+
 
 /* section title area starts*/
 
