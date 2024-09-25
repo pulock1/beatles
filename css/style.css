@@ -19,6 +19,7 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
+
 h1,h2,h3,h4,h5,h6{
     font-family: "Oswald", sans-serif;
     padding: 0;
@@ -150,12 +151,11 @@ p{
 
 .carousel-caption {
     top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
-    left: 0;
     padding-top: 0;
     padding-bottom: 0;
-    text-align: center;
     text-align: right;
     height: 100%;
     width: 100%;
